@@ -86,4 +86,3 @@ function getEvenNumbers(array) {
     return evenNumbers;
 } // getEvenNumbers(myNweArray) // [2, 4, 6, 8, 10]
 getEvenNumbers(myNweArray) // [2, 4, 6, 8, 10]
-
