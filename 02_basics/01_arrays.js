@@ -62,3 +62,7 @@ console.log(myn2); // [2, 3, 4, 5]
 console.log("D", arr); // [1, 6]
 console.log("E", myn1); // [2, 3, 4]
 console.log("F", myn2); // [2, 3, 4, 5]
+
+
+// inspect array
+// there is lots of array methods in javascript
