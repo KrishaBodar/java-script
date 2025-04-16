@@ -86,3 +86,9 @@ function getEvenNumbers(array) {
     return evenNumbers;
 } // getEvenNumbers(myNweArray) // [2, 4, 6, 8, 10]
 getEvenNumbers(myNweArray) // [2, 4, 6, 8, 10]
+
+function getOddNumbers(array) { 
+    const oddNumbers = array.filter((number) => number % 2 !== 0);
+    return oddNumbers;
+} // getOddNumbers(myNweArray) // [1, 3, 5, 7, 9]
+
