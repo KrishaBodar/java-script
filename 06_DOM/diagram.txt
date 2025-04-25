@@ -16,3 +16,8 @@
 |------------|                         |------------|
 |   HEAD     |                         |    BODY    |
 |------------|                         |------------|
+    |      \                             /    |   \
+  TITLE   META                          H1    P  ATTRIBUTE
+    |       \
+  TEXT     AATRIBUTE
+  NODE
