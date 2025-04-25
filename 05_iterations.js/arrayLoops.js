@@ -14,23 +14,11 @@ for (let element of arr) {
 const greetings = ["Hello", "Hi", "Hey"];
 for (let greeting of greetings) {
     console.log(greeting);
-}
-//  output: Hello Hi Hey
+}//  output: Hello Hi Hey   
 
 
 
-
-// maps and sets
-const myMap = new Map([
-    ["name", "Alice"],
-    ["age", 25],
-    ["city", "New York"]
-]);
-for (let [key, value] of myMap) {
-    console.log(`${key}: ${value}`);
-}
-// output: 
-// name: Alice 
-// age: 25 
-// city: New York
-
+const numbers = [1, 2, 3, 4, 5];
+for (let number of numbers) {
+    console.log(number * 2);
+}//  output: 2 4 6 8 10
