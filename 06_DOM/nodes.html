@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    // create div element
+    const div = document.createElement('div')
+    console.log(div);
+    // class name add 
+    div.className = "main"
+
+    // add id in div
+    div.id = Math.round(Math.random() * 10 + 1)
+
+    // setAttribute set for title
+    div.setAttribute("title", "generated title")
+
+    // style in the div 
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // div.innerText = "Chai aur code"
+
+    // prefer this for add the text 
+    const addText = document.createTextNode("Chai aur code")
+    // add in the web page
+    div.appendChild(addText)
+    // append child on the body
+    document.body.appendChild(div)
+</script>
+</html>
