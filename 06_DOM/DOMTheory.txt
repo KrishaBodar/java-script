@@ -1,0 +1,107 @@
+first open the website in the inspect mode
+then select console 
+
+if you wanna target a particular element then write below in the console
+==> document.getElementById('title')
+==> document.getElementById('title').id
+==> document.getElementById('title').class
+==> document.getElementById('title').className
+
+if you wanna find the attribute name then write .getAttribute
+==> document.getElementById('title').getAttribute('id')
+==> document.getElementById('title').getAttribute('class')
+
+
+just like get AATRIBUTEthere is also setAttribute
+==> document.getElementById('title').setAttribute('class', 'test heading')
+
+in the particular attribute you wanna add style 
+then write this
+in the below example i add the bg color in the title and for all change just refers one.HTML
+==>title.style.backgroundColor = 'green'
+
+if you wanna add padding
+==> title.style.padding = "15px"
+
+if you wanna borderRadius
+==> title.style.borderRadius = "5px"
+
+imp
+in the title here is some space and repeated things
+
+if you wanna know that what is eturn in the title
+==> title.textContent
+==> title.innerHTML
+==> title.innerText
+there is some differece betwwn innerHTMLan textContent
+in the innerHTML that shows that text which is shown on the page
+in the textContent that shows thst content which is hide by the wweb page 
+
+for example
+-> title.innerText
+    'DOM learning on chai aur code'
+-> title.textContent
+    'DOM learning on chai aur code test text'
+
+title.innerHTML is write whole html line 
+-> title.innerHTML
+    'DOM learning on chai aur code <span style="display: none;">test text</span>'
+
+
+ways to select
+query selector
+==> document.querySelector('h1')
+==> document.querySelector('h2')
+
+if you wanna select id
+==> document.querySelector('#title)
+
+if you wanna heading
+==> document.querySelector('.heading')
+
+
+this querySelector depends on css querySelector if you know more css then you find more query
+
+in unorder list you wanna chande all the things in the ul
+li
+if you want to select all `li` elements inside a `ul`, you can use querySelectorAll:
+==> document.querySelectorAll('ul li')
+
+For example, if you want to change the text of all `li` elements inside a `ul`:
+
+
+const listItems = document.querySelectorAll('ul li');
+listItems.forEach((item, index) => {
+  item.textContent = `Item ${index + 1}`;
+});
+
+
+in noodlist you can not change directly 
+you cann't use style directly
+
+it looks like array but it isn't array
+
+// Using querySelectorAll to select multiple elements
+const elements = document.querySelectorAll('.example-class');
+
+// Loop through the NodeList and apply changes
+elements.forEach((element, index) => {
+    element.style.color = 'blue'; // Change text color to blue
+    element.textContent = `Modified Item ${index + 1}`; // Modify text content
+});
+
+
+how to convert noodlist into array 
+
+
+
+new method
+getElementByClassName
+-> forEach doesn't work in this
+
+==> document.getElementByClassName('list-item')
+
+Array.from(tempClassList)
+-> it convert noodlist into Array
+
+then you used all html collction and style method

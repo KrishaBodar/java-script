@@ -21,3 +21,9 @@
     |       \
   TEXT     AATRIBUTE
   NODE
+
+
+
+
+DOM manuplation
+  document.getElementById('firstHeading')
