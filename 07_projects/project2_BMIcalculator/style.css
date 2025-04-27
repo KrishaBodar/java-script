@@ -6,8 +6,8 @@
     padding-left: 40px;
 }
 
-#Height,
-#Weight{
+#height,
+#weight{
     width: 150px;
     height: 20px;
     margin-top: 30px;
@@ -39,4 +39,9 @@ button{
 h1{
     padding-left: 50px;
     padding-top: 30px;
+}
+
+#results{
+    font-size: 20px;
+    padding-left: 75px;
 }
