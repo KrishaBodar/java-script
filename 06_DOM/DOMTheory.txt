@@ -34,7 +34,7 @@ if you wanna know that what is eturn in the title
 ==> title.innerHTML
 ==> title.innerText
 there is some differece betwwn innerHTMLan textContent
-in the innerHTML that shows that text which is shown on the page
+in the innerText that shows that text which is shown on the page
 in the textContent that shows thst content which is hide by the wweb page 
 
 for example
